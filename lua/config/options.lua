@@ -7,6 +7,9 @@
 vim.g.mapleader = ";"
 vim.g.maplocalleader = ";"
 
+-- change diagnostic flotating bg window color
+-- highlight DiagnosticFloating ctermbg=LightBlue guibg=LightBlue
+
 local opt = vim.opt
 
 opt.autowrite = true -- Enable auto write
